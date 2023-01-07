@@ -1,0 +1,21 @@
+.courseBarChartContainer {
+    height: 500px;
+    width: 730px;
+    margin-top: 20px;
+    background: rgba(0, 0, 139, 0.2);
+    padding: 20px 40px;
+    box-shadow: 3px 3px 3px 3px grey;
+}
+
+.courseBarChart text {
+    stroke: black;
+    font-weight: 100;
+}
+
+.courseBarChartContainer .recharts-legend-wrapper .recharts-legend-item-text {
+    color: #4b0dba !important;
+}
+
+.courseBarChartContainer .recharts-legend-wrapper .recharts-surface path {
+    fill: #4b0dba;
+}
