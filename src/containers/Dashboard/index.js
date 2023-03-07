@@ -1,7 +1,6 @@
 import { Navigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { API } from "../../global";
-import { CourseBarChart } from "./CourseBarChart";
 import { PieRechartComponent } from "./CoursePieChart";
 
 
