@@ -82,13 +82,6 @@ export function Dashboard(){
     return localStorage.getItem("user") ? (
         <div className='dashBoardContainer'>
             <DashboardCard dashboardCount={dashboardCount}/>
-            <div className="courseStatusCharts">
-                <h2>Course Completion Status</h2>
-                <div className='courseChartWrapper'>
-                    <CourseBarChart userCourseDetails={userCourseDetails} />
-                    {courseStatus && <PieRechartComponent userTaskDetails={courseStatus}/>}
-                </div>
-            </div>
                 <div className="taskChartWrapper">
                 <h2>Task Completion Status</h2>
                 <PieRechartComponent userTaskDetails = {userTaskDetails} type="task"/>
