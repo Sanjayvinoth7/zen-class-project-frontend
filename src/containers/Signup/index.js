@@ -106,7 +106,7 @@ export function SignUp() {
                     <h2>Sign Up</h2>
                     <div>We do not share your details with anyone</div>
                 </div>
-                <div className="portalDescription">"The ultimate guide to choosing the best online training platforms for Web Development"</div>
+                <div className="portalDescription">"The ultimate guideto choosing the best online training platforms for Web Development"</div>
                 
             </div>
       </div>
